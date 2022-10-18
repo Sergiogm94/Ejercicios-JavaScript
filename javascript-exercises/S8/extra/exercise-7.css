@@ -1,0 +1,23 @@
+.b-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.b-gallery__item{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 16px;
+
+}
+
+.b-gallery__title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img{
+    max-width: 100%;
+}
